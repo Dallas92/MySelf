@@ -18,6 +18,7 @@
 		84D18DBF2299816000196C1E /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D18DBE2299816000196C1E /* ProfileTableViewController.swift */; };
 		84D18DC22299939800196C1E /* ProfileInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D18DC12299939800196C1E /* ProfileInfoTableViewController.swift */; };
 		84D18DC4229993AD00196C1E /* ChangePasswordTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D18DC3229993AD00196C1E /* ChangePasswordTableViewController.swift */; };
+		84DC3C9922ABD42900B33FA6 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DC3C9822ABD42900B33FA6 /* BaseTableViewController.swift */; };
 		8765D48521230D4BCA4646AB /* Pods_Myself.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E180446249B4A8ECBD3B21D /* Pods_Myself.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +37,7 @@
 		84D18DBE2299816000196C1E /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
 		84D18DC12299939800196C1E /* ProfileInfoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoTableViewController.swift; sourceTree = "<group>"; };
 		84D18DC3229993AD00196C1E /* ChangePasswordTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordTableViewController.swift; sourceTree = "<group>"; };
+		84DC3C9822ABD42900B33FA6 /* BaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
 		98D2ED0EFD113A469491B122 /* Pods-Myself.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Myself.debug.xcconfig"; path = "Target Support Files/Pods-Myself/Pods-Myself.debug.xcconfig"; sourceTree = "<group>"; };
 		C24F77E81B06AEA80E414A38 /* Pods-Myself.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Myself.release.xcconfig"; path = "Target Support Files/Pods-Myself/Pods-Myself.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -98,6 +100,7 @@
 				84B864C922992D3E00DB3197 /* Components.swift */,
 				84B864CB2299361E00DB3197 /* Extensions.swift */,
 				84B864CD22993A1F00DB3197 /* BaseViewController.swift */,
+				84DC3C9822ABD42900B33FA6 /* BaseTableViewController.swift */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84DC3C9922ABD42900B33FA6 /* BaseTableViewController.swift in Sources */,
 				84D18DBF2299816000196C1E /* ProfileTableViewController.swift in Sources */,
 				84B864CE22993A1F00DB3197 /* BaseViewController.swift in Sources */,
 				84D18DC4229993AD00196C1E /* ChangePasswordTableViewController.swift in Sources */,

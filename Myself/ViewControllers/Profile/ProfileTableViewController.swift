@@ -33,6 +33,10 @@ class ProfileTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         //Change the selected background view of the cell.
         tableView.deselectRow(at: indexPath, animated: true)
+        
+        if(indexPath.row == 4){
+            self.dismiss(animated: true, completion: nil)
+        }
     }
     
     // MARK: - Table view data source
