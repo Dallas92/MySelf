@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  EntryViewController
 //  Myself
 //
 //  Created by Admin on 25.05.2019.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class EntryViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

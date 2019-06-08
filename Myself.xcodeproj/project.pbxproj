@@ -8,20 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		84B864B72299258600DB3197 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B864B62299258600DB3197 /* AppDelegate.swift */; };
-		84B864B92299258600DB3197 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B864B82299258600DB3197 /* ViewController.swift */; };
+		84B864B92299258600DB3197 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B864B82299258600DB3197 /* EntryViewController.swift */; };
 		84B864BC2299258600DB3197 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B864BA2299258600DB3197 /* Main.storyboard */; };
 		84B864BE2299258800DB3197 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B864BD2299258800DB3197 /* Assets.xcassets */; };
 		84B864C12299258800DB3197 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B864BF2299258800DB3197 /* LaunchScreen.storyboard */; };
+		84B864CA22992D3E00DB3197 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B864C922992D3E00DB3197 /* Components.swift */; };
+		84B864CC2299361E00DB3197 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B864CB2299361E00DB3197 /* Extensions.swift */; };
+		84B864CE22993A1F00DB3197 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B864CD22993A1F00DB3197 /* BaseViewController.swift */; };
+		84D18DBF2299816000196C1E /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D18DBE2299816000196C1E /* ProfileTableViewController.swift */; };
+		84D18DC22299939800196C1E /* ProfileInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D18DC12299939800196C1E /* ProfileInfoTableViewController.swift */; };
+		84D18DC4229993AD00196C1E /* ChangePasswordTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D18DC3229993AD00196C1E /* ChangePasswordTableViewController.swift */; };
+		8765D48521230D4BCA4646AB /* Pods_Myself.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E180446249B4A8ECBD3B21D /* Pods_Myself.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E180446249B4A8ECBD3B21D /* Pods_Myself.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Myself.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B864B32299258600DB3197 /* Myself.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Myself.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B864B62299258600DB3197 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84B864B82299258600DB3197 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84B864B82299258600DB3197 /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
 		84B864BB2299258600DB3197 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84B864BD2299258800DB3197 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84B864C02299258800DB3197 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84B864C22299258800DB3197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84B864C922992D3E00DB3197 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		84B864CB2299361E00DB3197 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		84B864CD22993A1F00DB3197 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		84D18DBE2299816000196C1E /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		84D18DC12299939800196C1E /* ProfileInfoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoTableViewController.swift; sourceTree = "<group>"; };
+		84D18DC3229993AD00196C1E /* ChangePasswordTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordTableViewController.swift; sourceTree = "<group>"; };
+		98D2ED0EFD113A469491B122 /* Pods-Myself.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Myself.debug.xcconfig"; path = "Target Support Files/Pods-Myself/Pods-Myself.debug.xcconfig"; sourceTree = "<group>"; };
+		C24F77E81B06AEA80E414A38 /* Pods-Myself.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Myself.release.xcconfig"; path = "Target Support Files/Pods-Myself/Pods-Myself.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8765D48521230D4BCA4646AB /* Pods_Myself.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CBFAD36E959360431920E8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98D2ED0EFD113A469491B122 /* Pods-Myself.debug.xcconfig */,
+				C24F77E81B06AEA80E414A38 /* Pods-Myself.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		84B864AA2299258500DB3197 = {
 			isa = PBXGroup;
 			children = (
 				84B864B52299258600DB3197 /* Myself */,
 				84B864B42299258600DB3197 /* Products */,
+				1CBFAD36E959360431920E8B /* Pods */,
+				A641C1A720DF025894F549AA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +83,67 @@
 			isa = PBXGroup;
 			children = (
 				84B864B62299258600DB3197 /* AppDelegate.swift */,
-				84B864B82299258600DB3197 /* ViewController.swift */,
-				84B864BA2299258600DB3197 /* Main.storyboard */,
+				84D18DBD2299814500196C1E /* ViewControllers */,
+				84D18DC62299942500196C1E /* Storyboards */,
+				84B864C822992D1B00DB3197 /* Custom */,
 				84B864BD2299258800DB3197 /* Assets.xcassets */,
-				84B864BF2299258800DB3197 /* LaunchScreen.storyboard */,
 				84B864C22299258800DB3197 /* Info.plist */,
 			);
 			path = Myself;
+			sourceTree = "<group>";
+		};
+		84B864C822992D1B00DB3197 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				84B864C922992D3E00DB3197 /* Components.swift */,
+				84B864CB2299361E00DB3197 /* Extensions.swift */,
+				84B864CD22993A1F00DB3197 /* BaseViewController.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		84D18DBD2299814500196C1E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				84D18DC5229993DF00196C1E /* Entry */,
+				84D18DC02299931B00196C1E /* Profile */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		84D18DC02299931B00196C1E /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				84D18DBE2299816000196C1E /* ProfileTableViewController.swift */,
+				84D18DC12299939800196C1E /* ProfileInfoTableViewController.swift */,
+				84D18DC3229993AD00196C1E /* ChangePasswordTableViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		84D18DC5229993DF00196C1E /* Entry */ = {
+			isa = PBXGroup;
+			children = (
+				84B864B82299258600DB3197 /* EntryViewController.swift */,
+			);
+			path = Entry;
+			sourceTree = "<group>";
+		};
+		84D18DC62299942500196C1E /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				84B864BA2299258600DB3197 /* Main.storyboard */,
+				84B864BF2299258800DB3197 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		A641C1A720DF025894F549AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E180446249B4A8ECBD3B21D /* Pods_Myself.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +153,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84B864C52299258800DB3197 /* Build configuration list for PBXNativeTarget "Myself" */;
 			buildPhases = (
+				9822C64FDDA85008EC86C592 /* [CP] Check Pods Manifest.lock */,
 				84B864AF2299258600DB3197 /* Sources */,
 				84B864B02299258600DB3197 /* Frameworks */,
 				84B864B12299258600DB3197 /* Resources */,
+				0935ED353F70FDAFFBF91D7B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +214,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0935ED353F70FDAFFBF91D7B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Myself/Pods-Myself-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Myself/Pods-Myself-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9822C64FDDA85008EC86C592 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Myself-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84B864AF2299258600DB3197 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84B864B92299258600DB3197 /* ViewController.swift in Sources */,
+				84D18DBF2299816000196C1E /* ProfileTableViewController.swift in Sources */,
+				84B864CE22993A1F00DB3197 /* BaseViewController.swift in Sources */,
+				84D18DC4229993AD00196C1E /* ChangePasswordTableViewController.swift in Sources */,
+				84B864B92299258600DB3197 /* EntryViewController.swift in Sources */,
+				84B864CA22992D3E00DB3197 /* Components.swift in Sources */,
 				84B864B72299258600DB3197 /* AppDelegate.swift in Sources */,
+				84D18DC22299939800196C1E /* ProfileInfoTableViewController.swift in Sources */,
+				84B864CC2299361E00DB3197 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,9 +417,11 @@
 		};
 		84B864C62299258800DB3197 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98D2ED0EFD113A469491B122 /* Pods-Myself.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2TR7UP236;
 				INFOPLIST_FILE = Myself/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -297,9 +436,11 @@
 		};
 		84B864C72299258800DB3197 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C24F77E81B06AEA80E414A38 /* Pods-Myself.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2TR7UP236;
 				INFOPLIST_FILE = Myself/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
